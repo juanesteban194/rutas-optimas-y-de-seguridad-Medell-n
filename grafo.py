@@ -25,7 +25,7 @@ class Grafo:
 
         if nodo not in self.coordenadas:
             lon, lat = ast.literal_eval(nodo)
-            self.coordenadas[nodo] + (lat, lon)
+            self.coordenadas[nodo] = (lat, lon)
             self.adjacencia[nodo] = []
 
     def _agregar_arista(self, origen:str, arista: Arista) -> None:
