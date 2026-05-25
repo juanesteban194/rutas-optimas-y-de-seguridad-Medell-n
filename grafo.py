@@ -1,3 +1,8 @@
+import pandas as pd
+import ast
+
+
+
 class Arista:
 
 #primera implementacion
